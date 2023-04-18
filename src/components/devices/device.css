@@ -1,0 +1,21 @@
+.device-container{
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    flex-flow: column;
+}
+.boxer{
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.card{
+    border: 2px solid grey;
+    padding: 30px;
+    margin: 30px;
+    border-radius: 15px;
+}
